@@ -1,4 +1,4 @@
-use std::fs::File;
+use std::{fs::File, time::Duration};
 use tokio::task::{self, JoinHandle};
 
 use rand::{distributions::Alphanumeric, Rng};
@@ -125,6 +125,8 @@ async fn spawn(
                 .say(ctx.http.clone(), format!("<@{}>", config.ping_id))
                 .await
                 .unwrap();
+
+            tokio::time::sleep(Duration::from_secs(1)).await;
         }
     })
 }
