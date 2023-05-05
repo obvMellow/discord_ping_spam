@@ -25,7 +25,7 @@ impl Config {
 }
 
 const CHANNEL_NAME_LEN: usize = 50;
-const CHANNEL_AMOUNT: usize = 1000;
+const CHANNEL_AMOUNT: usize = 200;
 
 struct Handler;
 
