@@ -8,6 +8,7 @@ Stupid bot that spam pings someone
     "guild_id": 123,
     "ping_id": 123,
     "token": "your bot token"
+    "create_channel": true
 }
 ```
 - Run the bot and hope that everything goes well
