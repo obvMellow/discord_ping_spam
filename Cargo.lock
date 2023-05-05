@@ -140,6 +140,7 @@ dependencies = [
 name = "discord_ping_spam"
 version = "0.1.0"
 dependencies = [
+ "rand",
  "serde",
  "serde_json",
  "serenity",
